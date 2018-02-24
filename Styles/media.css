@@ -1,0 +1,102 @@
+@media (max-width: 1500px) {
+  div.planta{
+    left:-100px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  div.planta{
+    left:-250px;
+  }
+}
+
+@media (max-width: 1065px) {
+  section#home .layout{
+    width: 800px;
+  }
+
+  div.color p{
+    left: 101px;
+    top: 286px;
+    font-size: 28px;
+  }
+
+  section#home .layout div.descripcion{
+    width: 500px;
+    height: auto;
+    top: -120px;
+    font-size: 30px;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  section#home .layout{
+    width: 500px;
+  }
+
+  div.color{
+    height: 300px;
+  }
+
+  div.color p{
+    left: 26px;
+    top: 208px;
+    font-size: 17px;
+  }
+
+  section#home .layout div.descripcion{
+    width: 400px;
+    height: auto;
+    top: -40px;
+    font-size: 25px;
+  }
+
+
+  section#home .layout div.acciones{
+    top: 30px;
+  }
+}
+
+
+
+@media (max-width: 500px) {
+
+  h1#alas-en-libertad{
+    width: 159px;
+    height: 77px;
+    background:url("../assets/alas-en-libertad.svg") cover;
+  }
+
+  div.planta{
+    display: none;
+  }
+  section#home .layout{
+    width: 300px;
+  }
+
+  div.color{
+    height: 150px;
+    margin: -10px auto;
+  }
+
+  div.color p{
+    left: -35px;
+    top: 110px;
+    font-size: 13px;
+  }
+
+  section#home .layout div.descripcion{
+    width: 90%;
+    height: auto;
+    top: 20px;
+    font-size: 17px;
+  }
+
+
+  section#home .layout div.acciones{
+    top: 50px;
+  }
+}

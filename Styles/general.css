@@ -1,0 +1,142 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+@font-face {
+  font-family: 'Playfair Display', serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700');
+@font-face {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* colores */
+
+
+html, body{
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  font-weight: 300;
+  overflow: hidden;
+  transition: .5s;
+}
+
+section#home{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: block;
+  background:url("../assets/img_bg.jpg");
+  background-size: cover;
+  position: absolute;
+}
+
+div.planta{
+  position: absolute;
+  width: 431px;
+  height: 607px;
+  left:60px;
+  bottom: 0px;
+  background: url("../assets/plant.png");
+  background-size: cover;
+  z-index: 777;
+  transition: .5s;
+}
+
+section#home .layout{
+  width: 1065px;
+  height: auto;
+  text-align: center;
+  position: relative;
+  margin: 59px auto;
+  transition: .5s;
+}
+
+h1#alas-en-libertad{
+  font-size: 1px;
+  color: transparent;
+  width: 259px;
+  height: 77px;
+  background:url("../assets/alas-en-libertad.svg") no-repeat;
+  background-size: 100%;
+  margin: auto;
+  transition: .5s;
+}
+
+div.color{
+  width: 100%;
+  height: 515px;
+  margin: 22px auto;
+}
+
+div.color p{
+  position: absolute;
+  width: 266px;
+  height: 48px;
+  left: 191px;
+  top: 267px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 38px;
+  text-align: center;
+  color: #FFFFFF;¡
+}
+
+section#home .layout div.descripcion{
+  width: 584px;
+  height: 94px;
+  margin: auto;
+  top: -120px;
+  position: relative;
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+section#home .layout div.acciones{
+  width: 323px;
+  height: auto;
+  background: yellow;
+  margin: auto;
+  top: -10px;
+  position: relative;
+}
+
+section#home .layout div.acciones a.btnPrimary{
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  width: 250px;
+  height: 45px;
+  margin: auto;
+  padding-top: 12px;
+  background: url("../assets/Boton.svg");
+  display: block;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0px;
+
+}
+
+section#home .layout div.acciones a.LinkSomos{
+  font-family: Source Sans Pro;
+  font-size: 17px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FAD4AF ;
+  display: block;
+  margin: 20px auto;
+}

@@ -65,8 +65,8 @@
 @media (max-width: 500px) {
 
   h1#alas-en-libertad{
-    width: 159px;
-    height: 77px;
+    width: 80%;
+    height: 100px;
     background:url("../assets/alas-en-libertad.svg") cover;
   }
 
@@ -84,19 +84,23 @@
 
   div.color p{
     left: -35px;
-    top: 110px;
+    top: 135px;
     font-size: 13px;
   }
 
   section#home .layout div.descripcion{
     width: 90%;
     height: auto;
-    top: 20px;
-    font-size: 17px;
+    top: 80px;
+    font-size: 22px;
   }
 
 
   section#home .layout div.acciones{
-    top: 50px;
+    top: 200px;
+    background: red;
+    left: 3px;
+    position: relative;
+    height: 100%;
   }
 }

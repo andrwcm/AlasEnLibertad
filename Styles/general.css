@@ -22,7 +22,6 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
   font-weight: 300;
-  overflow: hidden;
   transition: .5s;
 }
 
@@ -31,9 +30,10 @@ section#home{
   height: 100%;
   margin: auto;
   display: block;
-  background:url("../assets/img_bg.jpg");
+  background:url("../assets/alasenlibertad_background.jpg");
   background-size: cover;
-  position: absolute;
+  padding-top: 67px;
+  position: relative;
 }
 
 div.planta{
@@ -48,45 +48,40 @@ div.planta{
   transition: .5s;
 }
 
-section#home .layout{
-  width: 1065px;
+.layout{
+  width: 1063px;
   height: auto;
   text-align: center;
   position: relative;
-  margin: 59px auto;
+  margin: 0px auto;
   transition: .5s;
 }
 
 h1#alas-en-libertad{
   font-size: 1px;
   color: transparent;
-  width: 259px;
-  height: 77px;
+  width: 233px;
+  height: 69px;
   background:url("../assets/alas-en-libertad.svg") no-repeat;
   background-size: 100%;
   margin: auto;
   transition: .5s;
 }
 
-div.color{
-  width: 100%;
-  height: 515px;
-  margin: 22px auto;
-}
 
 div.color p{
   position: absolute;
-  width: 266px;
+  width: auto;
   height: 48px;
-  left: 191px;
-  top: 267px;
-  font-family: Source Sans Pro;
+  left: 170px;
+  top: 230px;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  font-size: 38px;
+  font-size: 43px;
   text-align: center;
-  color: #FFFFFF;¡
+  color: #000000;
 }
 
 section#home .layout div.descripcion{
@@ -95,48 +90,223 @@ section#home .layout div.descripcion{
   margin: auto;
   top: -120px;
   position: relative;
-  font-family: Playfair Display;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 35px;
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
 }
 
-section#home .layout div.acciones{
-  width: 323px;
-  height: auto;
-  background: yellow;
-  margin: auto;
-  top: -10px;
+
+nav{
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: white;
+  z-index: 999;
+}
+
+nav .icon_alasenlibertad{
+  width: 100px;
+  height: 70px;
+  padding-top: 30px;
+  background: #1D1F38;
+  text-align: center;
   position: relative;
 }
 
-section#home .layout div.acciones a.btnPrimary{
-  font-family: Source Sans Pro;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-decoration: none;
-  width: 250px;
-  height: 45px;
-  margin: auto;
-  padding-top: 12px;
-  background: url("../assets/Boton.svg");
-  display: block;
-  background-size: 100%;
-  position: absolute;
-  bottom: 0px;
-
+nav .icon_alasenlibertad img{
+  width: 54px;
+  height: 43px;
 }
 
-section#home .layout div.acciones a.LinkSomos{
-  font-family: Source Sans Pro;
+nav ul{
+  padding: 0px;
+  width: 610px;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 0px;
+  height: auto;
+  left: 35px;
+  display: inline-block;
+  transform-origin: top left;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: #000000;
+  transition: .5s;
+  font-weight: 300;
+}
+
+nav ul a:hover{
+  color:#F78635;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 13px;
+  padding-left: 13px;
+}
+
+nav ul li.active{
+  color:#F78635;
+  font-weight: 500;
+}
+
+a.btnPrimary{
+  text-decoration: none;
+  width: 250px;
+  height: auto;
+  display: inline-block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 15px 40px -14px rgba(0, 0, 0, .8);
+  color: white;
   font-size: 17px;
+  font-weight: 500;
+  background: #2F80ED;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+a.btnPrimary:hover{
+  box-shadow: 0px 25px 65px -10px rgba(0, 0, 0, .5);
+}
+
+
+a.btnPrimary.footerbtn{
+  background: #FC7474;
+  width: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+
+footer{
+  width: 100%;
+  height: 350px;
+  background: #333333;
   text-align: center;
-  text-decoration-line: underline;
-  color: #FAD4AF ;
+  padding-top: 60px;
+}
+
+
+footer .footerText{
+  width: 400px;
+  height: auto;
+  color: white;
+  font-size: 22px;
+  margin: 0px auto 45px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+footer ul.redes{
+  padding: 0px;
+  margin: 63px 0px 0px;
+}
+
+footer ul.redes a{
+  text-decoration: none;
+  color: white;
+  opacity: .4;
+  font-size: 16px;
+  transition: .5s;
+}
+
+footer ul.redes a:hover{
+  opacity: 1;
+}
+
+footer ul.redes a li{
+  width: auto;
+  padding-left: 35px;
+  display: inline-block;
+  margin: 0px 17px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+footer ul.redes a li.facebook{
+  background:url("../assets/alas_facebook.svg") no-repeat left;
+  background-size: auto 23px;
+  background-position: 12px;
+}
+
+footer ul.redes a li.mail{
+  background:url("../assets/alas_mail.svg") no-repeat left;
+  background-size: 23px 23px;
+}
+
+footer ul.redes a li.instagram{
+  background:url("../assets/alas_instagram.svg") no-repeat left;
+  background-size: auto 23px;
+}
+
+
+section#oportunidad{
+  width: 100%;
+  height: 100%;
+  margin: auto;
   display: block;
-  margin: 20px auto;
+  background:#2ED9FF;
+  background-size: cover;
+  padding-top: 67px;
+  position: relative;
+}
+
+.none{
+  display: none;
+}
+
+
+div.oportunidad p{
+  position: absolute;
+  width: auto;
+  height: 48px;
+  left: 210px;
+  top: 180px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size:30px;
+  text-align: center;
+  color: #000000;
+}
+
+div.oportunidad{
+  padding-top: 170px;
+}
+
+.parrafo{
+  width: 497px;
+  height: 154px;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  margin: auto;
+  font-size: 22px;
+}
+
+
+.square{
+  width: 570px;
+  height: 770px;
+  right: 100px;
+  border: solid 1px white;
+  text-align: center;
+  position: absolute;
+}
+
+.square img{
+  margin: auto;
+  position: relative;
+  left: -300px;
+  top: 70px;
 }

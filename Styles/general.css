@@ -22,6 +22,7 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
   font-weight: 300;
+  overflow-x: hidden;
   transition: .5s;
 }
 
@@ -199,17 +200,18 @@ footer{
 
 footer #pixlee_container{
   width: 1125px;
-  height: 300px;
+  height: 562px;
+  margin: 0px auto 60px;
   overflow: hidden;
 }
 
 
 footer .footerText{
-  width: 400px;
+  width: 520px;
   height: auto;
   color: white;
-  font-size: 22px;
-  margin: 0px auto 45px;
+  font-size: 32px;
+  margin: 40px auto 100px;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
 }
@@ -263,7 +265,6 @@ section#oportunidad{
   margin: auto;
   display: block;
   background:#2ED9FF;
-  background-size: cover;
   padding-top: 67px;
   position: relative;
 }
@@ -316,4 +317,24 @@ div.oportunidad{
   position: relative;
   left: -300px;
   top: 70px;
+}
+
+section#momento{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: block;
+  background:#9B51E0;
+  padding-top: 161px;
+  position: relative;
+}
+
+div.momento p.texto{
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  margin: auto;
+  left: -300px;
+  right: 0px;
+  top: 100px;
 }
